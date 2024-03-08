@@ -1,0 +1,184 @@
+@media (max-width: 1880px) {
+    .Options{
+        display: flex;
+        list-style: none;
+        gap: 2em;
+        align-items: center;
+        
+    }
+    .toggleBtn{
+        color: white;
+        font-size: large;
+        cursor: pointer;
+        display: none;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .Options{
+        display: none;
+        list-style: none;
+        gap: 2em;
+        align-items: center;
+        
+    }
+    .toggleBtn{
+        color: white;
+        font-size: large;
+        cursor: pointer;
+        display: block;
+    }
+
+}
+
+@media (max-width: 580px) {
+    .Options{
+        display: none;
+        list-style: none;
+        gap: 2em;
+        align-items: center;
+        
+    }
+    .toggleBtn{
+        color: white;
+        font-size: large;
+        cursor: pointer;
+        display: block;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.NavBar{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+   
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    
+}
+li:hover > a {
+    background-color: #eff2f3;
+}
+.sMedia{
+    list-style: none;
+    display: flex;
+    gap: 1em ;
+    justify-content: space-between;
+}
+.search{
+    width: 20px;
+}
+.searchIcon{
+    width: 15px;
+    position: absolute;
+    right: 140px;
+    top:55px;
+}
+.searchbar{
+    display: block;
+    
+}
+.Hiddensearchbar{
+    display: none;
+}
+.searchbar:hover .Hiddensearchbar {
+    display: block;
+}
+
+h2{
+    font-family: 'poppins-light' !important;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.midContainer{
+    display: block;
+    text-align: center;
+    margin: 20px;
+   
+}
+.textContainer{
+
+    display: flex;
+    justify-content: space-around;
+    
+}
+.star{
+    width: 50px;
+    
+    
+}
+.furniture{
+   
+    width: 30%;
+    margin-right: 20%;
+   
+}
+.light{
+    
+    width: 30%;
+    margin-left: 10%;
+   
+}
+
+.menu-container {
+    position: relative;
+    display: block;
+  }
+  
+  .hidden-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgb(179, 167, 167);
+  }
+  
+  .menu-container:hover .hidden-menu {
+    display: block;
+  }
+  
+  .hidden-menu ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .hidden-menu li {
+    padding: 10px 0;
+  }
+  
+  .hidden-menu a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+  }
+  
+  .hidden-menu a:hover {
+    background-color: #f4f4f4;
+  }
+  
