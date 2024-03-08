@@ -105,10 +105,8 @@ li:hover > a {
     display: block;
 }
 
-h2{
-    font-family: 'poppins-light' !important;
-}
-p {
+
+.light p,.furniture p {
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -182,3 +180,37 @@ p {
     background-color: #f4f4f4;
   }
   
+  .More{
+    color: #bbb9b9;
+    background-color: #fff;
+    border: 1px solid #bbb9b9;
+    border-radius: 50px;
+    padding: 5px 30px;
+    transition: color .3s, background-color .3s, border .3s;
+  }
+  .More:hover{
+    color: #fff;
+    background-color: black;
+  }
+  .backimg{
+    /* width: 100%; */
+    height: 100vh;
+    /* background-size: cover; */
+    background-image: url(https://www.moroccanbazaar.com/wp-content/uploads/2019/09/banner_image.jpg);
+    background-repeat: no-repeat;
+    
+  }
+
+  .textBackimg{
+    position: absolute;
+    top: 110em;
+    text-align: center;
+    color: white;
+    width:70%;
+    margin-left: 15em;
+  }
+  .textTitle{
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    
+  }
